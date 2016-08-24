@@ -1,0 +1,252 @@
+.nike {
+	height: 100%;
+  	width: 100%;
+  	text-align: center;
+}
+.nike-head {
+	width: 100%;
+	height: 8%;
+	margin: 0 auto;
+	text-align: center;
+}
+.nike-head div {
+	width: 32%;
+	height: 60px;
+	display: inline-block;
+}
+.nike-head div .nike-net {
+	width: 45%;
+	margin: auto auto 0 auto;
+}
+.nike-head div .nike-des{
+	width: 22%;
+	display: block;
+	margin: auto 0 auto auto;
+}
+.nike-symbol {
+	text-align: center;
+}
+.nike-sym {
+	width: 25%;
+	height: 55%;
+	display: block;
+	margin: 0 auto;
+}
+.nike-symbol .sym-font {
+	font-size: x-large;
+    font-weight: bold;
+    display: block;
+}
+.nike-symbol .time-font {
+	color: gray;
+}
+.nike-list {
+	height: 60px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 5%;
+    margin-bottom: 8%;
+}
+.nike-list .nike-list-one {
+	height: 60px;
+	width: 32%;
+	float: left;
+	text-align: center;
+	border: 2px solid lightgray;
+	border-left: none;
+}
+.nike-list .nike-list-one img{
+	width: 35%;
+	height: 65%;
+	display: block;
+	margin: 0 auto;
+}
+.nike-list .nike-list-one font {
+	color: gray;
+}
+.nike-list .nike-list-two {
+	height: 60px;
+	width: 32%;
+	float: left;
+	text-align: center;
+	border-top: 2px solid gray;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid lightgray;
+}
+.nike-list .nike-list-two img {
+	width: 35%;
+	height: 65%;
+	display: block;
+	margin: 0 auto;
+}
+.nike-list .nike-list-three {
+	height: 60px;
+	width: 32%;
+	float: left;
+	text-align: center;
+	border: 2px solid lightgray;
+	border-right: none;
+}
+.nike-list .nike-list-three font {
+	color: gray;
+}
+.nike-list .nike-list-three img {
+	width: 35%;
+	height: 65%;
+	display: block;
+	margin: 0 auto;
+}
+.nike-record {
+	width: 20%;
+	height: 20px;
+	margin: 0 auto;
+	margin-bottom: 9%;
+}
+.nike-record .nike-record-one {
+	width: 50%;
+	height: 20px;
+	background-color: gray;
+	float: left;
+	text-align: center;
+}
+.nike-record .nike-record-two {
+	width: 50%;
+	height: 20px;
+	background-color: lightgray;
+	float: left;
+	text-align: center;
+}
+.nike-status {
+	width: 100%;
+	height: 20px;
+	margin: 0 auto;
+}
+.nike-status div{
+	width: 33%;
+	height: 20px;
+	float: left;
+	margin: 0 auto;
+}
+.nike-status div img{
+	width: 15%;
+	height: 20px;
+	display: block;
+	margin: 0 auto;
+}
+.nike-status-value {
+	width: 100%;
+	height: 40px;
+	margin: 0 auto;
+}
+.nike-status-value div {
+	width: 33%;
+	height: 40px;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+	border-right: 1px solid lightgray;
+}
+.nike-status-des {
+	width: 100%;
+	height: 20px;
+	margin: 0 auto;
+}
+.nike-status-des div {
+	width: 33%;
+	height: 20px;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+}
+.nike-status-value .nike-status-value-three {
+	border: none;
+} 
+.nike-status-value div font {
+	font-family: initial;
+    font-size: xx-large;
+}
+.nike-picture {
+	width: 15%;
+	height: 25px;
+	margin: 0 auto;
+	margin-top: 5%;
+    margin-bottom: 3%;
+}
+.nike-picture img{
+	width: 40%;
+	height: 25px;
+}
+.nike-radio {
+	width: 9%;
+	height: 15px;
+	margin: 0 auto;
+}
+.nike-radio input{
+	width: 40%;
+	height: 10px;
+	margin: 0 auto;
+}
+.nike-content {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	margin: 0 auto;
+	color: gray;
+}
+.nike-interest {
+	width: 100%;
+	height: 40px;
+	background-color: lightgray;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 2%;
+    margin-bottom: 5%;
+}
+.nike-interest .nike-interest-one {
+	position: absolute;
+    left: 6%;
+    bottom: 0;
+}
+.nike-interest .nike-interest-two {
+	position: absolute;
+    right: 6%;
+    bottom: 0;
+}
+.nike-example {
+	text-align: center;
+	width: 100%;
+}
+.nike-example img {
+	width: 18%;
+    height: 45%;
+	margin: 0 auto;
+}
+.nike-example div {
+	background-image: url("/images/person_96px_1185229_easyicon.net.png");
+	width: 17%;
+	height: 65px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 60px;
+	display: inline-block;
+	position: relative;
+}
+.nike-example div span {
+	position: absolute;
+    left: 25%;
+    top: 35%;
+}
+/*blank-space*/
+.blank-space-one {
+	width: 100%;
+	height: 15px;
+}
+.blank-space-two {
+	width: 100%;
+	height: 30px;
+}
+.blank-space-three {
+	width: 100%;
+	height: 30px;
+}

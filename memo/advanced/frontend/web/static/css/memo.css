@@ -1,0 +1,238 @@
+.memo {
+	width: 100%;
+	margin: 0 auto;
+/*	height: 100%;*/
+}
+.memo .title {
+	width: 100%;
+	height: 6%;
+	border-bottom: 1px solid gray;
+	background-color: white;
+	position: fixed;
+    top: 0px;
+}
+.memo .title div{
+	display: inline-block;
+	height: 100%;
+	width: 31%;
+	font-size: large;
+	padding-left: 4%;
+    padding-top: 2%;
+}
+.memo .title .memo-edit {
+	color: orange;
+}
+.memo .title .title-head {
+	text-align: center;
+}
+.memo .title .memo-add {
+	text-align: right;
+	color: orange;
+}
+/*设置提醒时间*/
+/*隐藏层*/
+.memo .hidebg {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+  	background-color: #000;
+  	width:100%;  /*宽度设置为100%，这样才能使隐藏背景层覆盖原页面*/
+  	filter: alpha(opacity=60);  /*设置透明度为60%*/
+  	opacity :0.6;  /*非IE浏览器下设置透明度为60%*/
+  	display: none; /* http://www.daixiaorui.com */
+  	z-index: 2;
+}
+.memo .time-div {
+	width: 70%;
+	height: 35%;
+	background-color: #d4d4cf;
+	top: 20%;
+	left: 16%;
+	position: absolute;
+	text-align: center;
+	border-radius: 7px;
+	z-index:3;
+}
+.memo .time-div .now-time{
+	width: 100%;
+	margin-bottom: 11%;
+}
+.memo .time-div .select-time {
+	width: 100%;
+	height: 20%;
+	border: 1px solid gray;
+	border-left: none;
+	border-right: none;
+	background-color: lightgray;
+	padding-top: 2%;
+}
+.memo .time-div .select-time .calendar {
+	border: none;
+    background-color: lightgray;
+}
+.memo .time-div .submit-button{
+	width: 100%;
+	height: 20%;
+	margin-top: 10%;
+	border-top: 1px solid #ada1a1;
+}
+.memo .time-div .submit-button div{
+	width: 49%;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+	padding-top: 4%;
+}
+.memo .time-div .submit-button .submit{
+	border-right: 1px solid #ada1a1;
+}
+/*content*/
+.memo .memo-content {
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 10%;
+}
+.memo .memo-content .clock {
+	height: 24px;
+	width: 60%;
+	text-align: left;
+	margin-top: 2%;
+	margin-left: 50%;
+	display: none;
+}
+.memo .memo-content .clock .clock-text{
+	height: 24px;
+	width: 40%;
+	text-align: right;
+	border: none;
+}
+.memo .memo-content .each-record{
+	width: 98%;
+	margin: 0 auto;
+	border-bottom: 1px solid gray;
+	height: 13%;
+	padding-left: 2%;
+    padding-top: 2%;
+}
+.memo .memo-content .each-record div{
+	display: inline-block;
+	width: 48%;
+	font-size: large;
+}
+.memo .memo-content .each-record .each-content{
+	text-align: left;
+}
+.memo .memo-content .each-record .each-date{
+	text-align: right;
+}
+.memo .delete-content {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0%;
+	text-align: center;
+	border-top: 1px solid gray;
+	padding-top: 2%;
+	background-color: wheat;
+}
+.memo .delete-content .del{
+	width: 50%;
+	height: 30px;
+}
+/*add*/
+.memo .memo-content .edit-content{
+	width: 98%;
+	border: none;
+	font-size: large;
+	/*当鼠标点击时，去掉外边框*/
+	outline: none;
+	margin: 0 auto;
+	padding-left: 4%;
+    padding-top: 2%;
+    height: 600px;
+}
+.memo .add-content {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0%;
+	text-align: center;
+	padding-top: 2%;
+}
+.memo .add-content div{
+	width: 24px;
+	height: 24px;
+	display: inline;
+	margin-right: 5px;
+}
+.memo .background-div {
+	width: 25%;
+	height: 40px;
+	background-image: url("/static/images/Chat_bubble_38.147783251232px_1198160_easyicon.net.png");
+	position: absolute;
+	bottom: 8%;
+    left: 32%;
+	background-repeat: no-repeat;
+	background-size: 100% 40px;
+	text-align: center;
+	padding-top: 7px;
+	padding-left: 2px;
+}
+.memo .background-div div{
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+    border-radius: 10px;
+}
+.memo .background-div .background-one{
+	background-image: url("/static/images/bg1.jpg");
+	background-repeat: no-repeat;
+}
+.memo .background-div .background-two{
+	background-image: url("/static/images/bg2.jpg");
+	background-repeat: no-repeat;
+}
+.memo .background-div .background-three{
+	background-image: url("/static/images/bg3.png");
+	background-repeat: no-repeat;
+}
+.memo .insert-picture {
+	width: 20%;
+	height: 40px;
+	background-image: url("/static/images/chat_32px_1197011_easyicon.net.png");
+	position: absolute;
+	bottom: 8%;
+    left: 40%;
+	background-repeat: no-repeat;
+	background-size: 100% 40px;
+	text-align: center;
+	padding-top: 5px;
+	padding-left: 2px;
+}
+.memo .insert-picture div {
+	color: white;
+	display: inline;
+}
+/*detail*/
+.memo .content {
+	width: 90%;
+	margin: 0 auto;
+	font-size: large;
+	height: 600px;
+	padding-top: 10%;
+}
+.memo .content .clock{
+	height: 24px;
+	width: 67%;
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 47%;
+}
+.memo .show-time {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0%;
+	text-align: center;
+	padding-top: 2%;
+}
