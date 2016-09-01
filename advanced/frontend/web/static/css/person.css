@@ -1,0 +1,274 @@
+/*个人信息管理*/
+.person-information {
+    width: 98%;
+    margin: 0 auto;
+}
+.title {
+    width: 98%;
+    height: 64px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+    background-color: #9bc4d4;
+    color: #FFF;
+    margin-bottom: 3%;
+    position: relative;
+    margin-left: 1%;
+}
+.title h2 {
+    width: 23%;
+    line-height: 65px;
+}
+.title .time-label {
+    position: absolute;
+    top: 20px;
+    right: 90px;
+}
+.title .logout{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.information {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.information .information-head {
+    width: 98%;
+}
+.information .information-head th {
+    width: 15%;
+    height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #AFD2E0;
+    font-size: 14px;
+    font-weight: normal;
+}
+.information tr {
+    background-color: #D1D2D2; 
+    height: 50px;
+}
+
+.information tr:nth-child(2n) {
+    background-color: white; 
+}
+.information .information-head td {
+    width: 15%;
+    height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 13px;
+}
+.information .information-head td img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+.information .information-head td .operation-modify {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-left: 25%;
+    cursor: pointer;
+}
+.information .information-head td .operation-delete {
+    float: right;
+    width: 23px;
+    height: 23px;
+    margin-right: 20%;
+    cursor: pointer;
+}
+.operation {
+    position: relative;
+    height: 30px;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 4px;
+}
+.operation .operation-add {
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    left: 0px;
+    cursor: pointer;
+}
+.operation .batch-add {
+    position: absolute;
+    left: 86px;
+    cursor: pointer;
+    bottom: 3px;
+}
+.operation .add {
+    position: absolute;
+    left: 24px;
+    cursor: pointer;
+    bottom: 3px;
+}
+.operation .select-form {
+    width: 22%;
+    height: 25px;
+    position: absolute;
+    right: 0px;
+}
+.operation .operation-select-text {
+    border-radius: 3px;
+    padding-left: 3px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 25px;
+    float: left;
+}
+.operation .operation-select {
+    position: absolute;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+/*add */
+.add-title {
+    width: 98%;
+    height: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+    background-color: #2196F3;
+    color: #FFF;
+    text-align: center;
+    font-color:white;
+    margin-left: 1%;
+}
+.add-title div {
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+}
+.add-div {
+    width: 400px;
+    height: 300px;
+    background-color: #DADEE2;
+    margin: 0 auto;
+    position: relative;
+    box-shadow:2px 2px 5px #8c7b7b;
+    border: 1px solid lightgray;
+}
+.add-div .name input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.add-div .age input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.add-div .add-form{
+    position: absolute;
+    top: 46px;
+    left: 23%;
+}
+.add-div .batch-add {
+     position: absolute;
+    top: 30px;
+}
+.add-div .import-div {
+    position: absolute;
+    top: 110px;
+    left: 24px;
+    display: inline-flex;;
+}
+.add-div .import-div #import_button {
+    margin-right: 20px;
+}
+.add-div .add-form div {
+    margin-bottom: 10px;
+}
+.add-div .add-form .age {
+    margin-left: 10px;
+}
+.add-div .add-form .button-div {
+    text-align: center;
+    padding-top: 10px;
+}
+.add-div .add-form .button-div #add_button {
+    margin-left: -24%;
+    margin-right: 14%;
+}
+.add-div .add-form .gender-two{
+    margin-left: 5px;
+}
+.add-div .add-form .reset {
+    margin-left: 5px;
+    background-color: skyblue;
+    cursor: pointer;
+}
+.add-div .add-form .submit {
+    background-color: skyblue;
+    cursor: pointer;
+}
+.message {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+.message font {
+    color: red;
+    size: 6;
+}
+.pagination {
+    width: 70%;
+    position: relative;
+
+}
+.pagination ul {
+    position: absolute;
+    left: 50%;
+}
+/* confirm */
+.confirm-div {
+    position: absolute;
+    width: 350px;
+    height: 180px;
+    border-radius: 10px;
+    border: 1px solid;
+    left: 40%;
+    padding-top: 55px;
+    padding-left: 105px;
+    color: #333;
+    background-color: #c1c1c1;
+    border-color: #adadad;
+    z-index:3;
+    display: none;
+}
+.confirm-div .button-div {
+    margin-top: 35px;
+}
+.confirm-div #no_button {
+    margin-right: 76px;
+    margin-left: -28px;
+}
+.confirm-div button {
+    font-size: 15px;
+    height: 35px;
+    padding-top: 7px;
+}
+.confirm-div .close-div {
+    float: right;
+    margin-right: 10px;
+    margin-top: -50px;
+    cursor: pointer;
+    color: lightgray;
+}
+.hidebg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #000;
+    width:100%;  /*宽度设置为100%，这样才能使隐藏背景层覆盖原页面*/
+    filter: alpha(opacity=100);  /*设置透明度为60%*/
+    opacity :0.6;  /*非IE浏览器下设置透明度为60%*/
+    display: none; /* http://www.daixiaorui.com */
+    z-index: 2;
+    height: 100%;
+}

@@ -1,0 +1,157 @@
+.person-information {
+	width: 98%;
+	margin: 0 auto;
+}
+.login-title {
+	width: 98%;
+    height: 5%;
+    margin-bottom: 10%;
+    position: relative;
+    margin-left: 1%;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+    background-color: #2196F3;
+    color: #FFF;
+    padding-top: 1px;
+}
+.login-title .time-label {
+    position: absolute;
+    top: 20px;
+    right: 90px;
+}
+.login-div {
+	width: 400px;
+	height: 200px;
+	background-color: white;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+    box-shadow:2px 2px 5px #8c7b7b;
+    border: 1px solid lightgray;
+}
+.login-div .name-message {
+	color: red;
+	position: absolute;
+	top: 9%;
+    left: 40%;
+}
+.login-div .name {
+	width: 60%;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+.login-div .name-input{
+	width: 65%;
+    border-radius: 3px;
+    padding-left: 3px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.login-div .password-message {
+	color: red;
+	position: absolute;
+    top: 33%;
+    left: 44%;
+}
+.login-div .password {
+	width: 60%;
+	position: absolute;
+	top: 43%;
+    left: 20%;
+}
+.login-div .password-input{
+	width: 65%;
+    border-radius: 3px;
+    padding-left: 3px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.login-div .remember-password {
+	width: 70%;
+	position: absolute;
+	top: 58%;
+    left: 14%;
+    color: black;
+}
+.login-div .remember-password #forget_me{
+	cursor: pointer;
+    margin-left: 7%;
+    text-decoration: blink;
+}
+.login-div .submit {
+	width: 10%;
+	position: absolute;
+	top: 73%;
+	left: 33%;
+}
+.login-div .message {
+	color: red;
+	width: 60%;
+	position: absolute;
+	top: 10%;
+	left: 30%;
+}
+.login-div .submit input {
+	background-color: skyblue;
+}
+.login-div .register {
+	width: 20%;
+	position: absolute;
+	top: 73%;
+	left: 55%;
+}
+.login-div .register a {
+	text-decoration: none;
+}
+/* 忘记密码 */
+.forget-div {
+	width: 400px;
+	height: 200px;
+	background-color: lightgray;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+    box-shadow:2px 2px 5px #8c7b7b;
+    border: 1px solid lightgray;
+}
+.forget-div .forget-message{
+	width: 60%;
+	position: absolute;
+	top: 20%;
+	left: 20%;
+}
+.forget-div .email {
+	width: 60%;
+	position: absolute;
+	top: 40%;
+    left: 18%;
+}
+.forget-div .email .email-input{
+    border-radius: 3px;
+    padding-left: 3px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.forget-div .forget {
+	width: 14%;
+	position: absolute;
+	top: 63%;
+	left: 45%;
+}
+.forget-div .message-email {
+	color: red;
+	position: absolute;
+    top: 31%;
+    left: 39%;
+    display: none;
+}
+.forget-div .message{
+	color: red;
+	position: absolute;
+    left: 38%;
+    top: 31%;
+}

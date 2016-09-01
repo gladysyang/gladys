@@ -1,0 +1,128 @@
+.register-title {
+	width: 98%;
+    height: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+    background-color: #2196F3;
+    color: #FFF;
+    text-align: center;
+    font-color:white;
+    margin-left: 1%;
+}
+.register-title div{
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+}
+.register-title .header{
+    font-size: 20px;
+}
+.register-title .back {
+    text-decoration: blink;
+    color: white;
+}
+.register-title .time-label {
+	margin-left: 60%;
+}
+.register-div {
+	width: 470px;
+    height: 280px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+    box-shadow:2px 2px 5px #8c7b7b;
+    border: 1px solid lightgray;
+}
+.register-div .name {
+	width: 70%;
+	position: absolute;
+	top: 10%;
+	left: 15%;
+}
+.register-div .name input{
+	width: 65%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.register-div .password {
+	width: 70%;
+	position: absolute;
+	top: 27%;
+    left: 15%;
+}
+.register-div .password input{
+	width: 65%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.register-div .confirm-password {
+	width: 75%;
+	position: absolute;
+	top: 43%;
+    left: 6%;
+}
+.register-div .confirm-password input{
+	width: 60%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.register-div .email {
+	width: 75%;
+	position: absolute;
+	top: 59%;
+    left: 15%;
+}
+.register-div .email input{
+	width: 60%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.register-div .register {
+	width: 40%;
+	position: absolute;
+	top: 84%;
+	left: 32%;
+}
+.register-div .register #submit_button{
+	margin-right: 31px;
+}
+.register-div span {
+	color: red;
+}
+.register-div input {
+    border-radius: 3px;
+    padding-left: 3px;
+}
+/* message */
+.register-div .message-name {
+	position: absolute;
+    left: 35%;
+    top: 12%;
+    color: red;
+    display: none;
+    font-size: 10px;
+}
+.register-div .message-password {
+    position: absolute;
+    left: 27%;
+    top: 29%;
+    color: red;
+    font-size: 10px;
+    display: none;
+}
+.register-div .confirm-message {
+    position: absolute;
+    font-size: 10px;
+    color: red;
+    left: 46%;
+    top: 46%;
+    display: none;
+}
+.register-div .email-message {
+    position: absolute;
+    font-size: 10px;
+    color: red;
+    left: 41%;
+    top: 67%;
+    display: none;
+}

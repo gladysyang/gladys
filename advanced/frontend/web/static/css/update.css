@@ -1,0 +1,70 @@
+.update-title {
+    width: 98%;
+    height: 5%;
+    margin-bottom: 5%;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+    background-color: #9bc4d4;
+    color: #FFF;
+    text-align: center;
+    font-color:white;
+    margin-left: 1%;
+}
+.update-title div {
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+}
+.update-div {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow:2px 2px 5px #8c7b7b;
+    border: 1px solid lightgray;
+}
+.update-div .name input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.update-div .age input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.update-div .update-form{
+    position: absolute;
+    top: 70px;
+    left: 30%;
+}
+.update-div .image {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.update-div .update-image {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+.update-div .update-form div {
+    margin-bottom: 10px;
+}
+.update-div .update-form .button-div {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-left: -28%;
+}
+.update-div .update-form .gender-two{
+    margin-left: 5px;
+}
+.update-div .update-form .reset {
+    margin-left: 5px;
+    background-color: skyblue;
+    cursor: pointer;
+}
+.update-div .update-form .submit {
+    background-color: skyblue;
+    cursor: pointer;
+}
